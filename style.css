@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+/* ====Global==== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.free-shipping{
+    background-color: #363636;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Barlow', sans-serif;
+    width: 100%;
+}
+.free-shipping:hover{
+    font-weight: bolder;
+}
+/* =======Navbar======start */
+a{
+    text-decoration: none;
+}
+nav{
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+nav div ul li a{
+    color: #FFFFFF;
+    font-family: 'Barlow', sans-serif;
+    
+}
+nav div ul li a:hover{
+     font-weight: bolder;
+}
+
+.left-bar{
+    display: flex;
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 50%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+    /* border: 2px solid black; */
+    
+}
+
+ul{
+  list-style: none;
+}
+.left-bar-links{
+    display: flex;
+    align-items: center;
+}
+.left-bar-links li{
+    margin: 0px 15px;
+}
+.right-bar{
+    display: flex;
+    position: absolute;
+    top: 10;
+    right: 0;
+    width: auto;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+    /* border: 2px solid black; */
+}
+.right-bar-links{
+    display: flex;
+    align-items: center;
+}
+.right-bar-links li{
+    margin: 0px 30px;
+}
+/* =======Navbar======end */
+
+header{
+    width: auto;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5) url('./images/pexels-vlada-karpovich-6947052.jpg') ;
+    background-blend-mode:darken;
+    background-position: bottom;
+    background-size:cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+    background-repeat: no-repeat;  
+
+}
+
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: right;
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 1300px;
+    /* margin-left: 200px; */
+    font-family: 'Barlow Condensed', sans-serif;
+ 
+}
+
+.header-content h2{
+    font-size: 4vmin;
+    margin-bottom: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-right: 100px;
+    letter-spacing: 0.03em;
+
+}
+.header-content p{
+    font-size: 2.5vmin;
+    font-weight: bolder;
+line-height: 24px;
+padding-right: 100px;
+font-family: 'Barlow', sans-serif;
+}
+.header-content button{
+    margin-top: 20px;
+    padding: 8px 28px;
+    gap: 10px;
+    margin-right: 120px;
+    font-size: 1.5vmin;
+    font-weight: 600;
+}
+.header-content button:hover{
+    color: grey;
+    
+}
+.drop3:hover{
+   opacity: 0.5;;
+}
+
+section{
+    margin: 35px 0px 15px 0px;
+
+}
+.title{
+    font-size: 3vmin;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    color: #3D1A1E;
+}
+
+.row{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 20px;
+    /* border: 2px solid black; */
+
+}
+.col img{
+    width: 600px;
+    padding: 5px;
+    
+}
+.col p{
+    font-family: 'Barlow', sans-serif;
+    margin-top: 5px;
+    font-weight: 500;
+    color: #C95023;
+
+}
+.row .col h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.row .col button{
+    margin-top: 20px;
+    padding: 8px 28px;
+    background-color: black;
+    color: whitesmoke;
+    gap: 10px;
+    font-size: 1.5vmin;
+    font-weight: 500;
+}
+.row .col button:hover{
+    color: grey;
+}
+
+.review-section{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    margin: 40px;
+    height: 180px;
+    text-align: center;
+
+}
+.reviews{
+    width: 350px;
+    /* border: 2px solid black; */
+    padding-top: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.reviews p{
+    margin-top: 10px ;
+}
+.reviews h4{
+    margin-top: 20px;
+}
+
+/* ====Breakfast start======= */
+.mask-group{
+    display: flex;
+    height: 300px;
+    /* border: 2px solid black; */
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin-left: 300px;
+   
+    
+}
+.breakfast{
+    text-align: center;
+    justify-content: center;
+    
+   
+}
+.breakfast img{
+    width: 300px;
+    
+}
+
+.content{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    /* border: 2px solid rgb(188, 30, 30); */
+    width: 300px;
+    /* margin-left: 100px; */
+    margin-top: 190px;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+  
+}
+.content h2{
+    /* border: 2px solid black; */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.2vmin;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+   
+   
+}
+.content p{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 550;
+    margin-top: 10px;
+    font-size: 2vmin;
+  
+    
+}
+/* ====Breakfast ends======= */
+
+  /*  <!--    WHY IS LOGO EASY TO LOVE   STARTS--> */
+
+.mask-group-2{
+    width: auto;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2)url('./images/mask2.jpg');
+    background-blend-mode: darken;
+    background-position: bottom;
+    background-size: cover;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.mask-content{
+    margin-bottom: 150px;
+    color: black;
+    background-color: rgba(245, 245, 245, 0.516);
+    text-align: right;
+    /* border: 2px solid black; */
+    height: 240px;
+    width: 900px;
+    margin-left: 600px;
+    margin-bottom: 260px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: left;
+}
+.mask-content h2{
+    margin: 30px 40px;
+    font-size: 4vmin;
+}
+.mask-content p{
+    margin: 20px 40px;
+}
+.mask-content button{
+    margin: 10px 40px;
+    padding: 8px 28px;
+    background-color: black;
+    color: whitesmoke;
+    gap: 10px;
+    font-size: 1.5vmin;
+    font-weight: 500;
+}
+.mask-content button:hover{
+    color: #d2cdcdf2;
+}
+
+/*  <!--    WHY IS LOGO EASY TO LOVE  ===ENDS --> */
+
+/*  WHAT PEOPLE LOVE=====STARTS */
+.people .title{
+    font-size: 4.5vmin;
+    margin-top: 50px;
+    font-weight: 600;
+    color: #3D1A1E;
+
+    font-family: 'Barlow Condensed', sans-serif;
+    /* border: 2px solid black; */
+}
+.deserts{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    margin: 40px;
+    height: 500px;
+    text-align: center;
+    margin-top: 2px;
+
+
+}
+.deserts .cakes {
+  /* border: 2px solid black; */
+  width: 420px;
+  padding-top: 20px;
+  padding: 20px;
+  line-height: 30px;
+}
+.deserts .cakes h4{
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.5vmin;
+}
+.deserts .cakes button{
+    margin: 10px 40px;
+    padding: 8px 28px;
+    background-color: black;
+    color: whitesmoke;
+    gap: 10px;
+    font-size: 1.8vmin;
+    font-weight: 500;
+}
+.deserts .cakes button:hover{
+    color: #bbb4b4f2;
+}
+
+/*   WHAT PEOPLE LOVE=====ENDS */
+
+.planet{
+    width: auto;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.1)url('./images/planet.jpg');
+    background-blend-mode: darken;
+    background-position: bottom;
+    background-size: cover;
+    margin-top: 135px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.planet-content{
+    color: whitesmoke;
+    /* border: 20px solid black; */
+    height: 150px;
+    margin-left: 80px;
+}
+
+.planet-content h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 6vmin;
+}
+.planet-content p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.5vmin;
+    margin-top: 20px;
+    width: 460px;
+}
+
+.shop{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+    
+}
+
+.pestries img{
+  width:378px;
+}
+
+.shop-title{
+     font-size: 5.5vmin;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #3D1A1E;
+    margin-bottom: 20px;
+   padding-top: 20px;
+}
+
+.recipes {
+    width: 1450px ;
+}
+.chef{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    margin: 10px;
+    height: 600px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+.chef .reci{
+  /* border: 2px solid black; */
+  width: 420px;
+  padding-top: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  
+}
+.recipe-title{
+
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    color: #3D1A1E;
+    margin-top: 850px;
+    font-size: 5.5vmin;
+    font-weight: 600;
+   
+}
+.reci h4{
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.5vmin;
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 10px;
+} 
+.reci p
+{
+     font-family: 'Barlow', sans-serif;
+    font-size: 1.8vmin;
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 1.3;;
+}
+.upper{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100px;
+    color: whitesmoke;
+    background: #363636;
+    font-family: 'Barlow', sans-serif;
+}
+.upper p{
+    text-align: center;
+    font-size: 2vmin;
+}
+
+.lower{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 300px;
+    padding-bottom: 110px;
+    color: black;
+    background: #F1CEBA;
+    font-family: 'Barlow', sans-serif;
+    /* border: 2px solid black; */
+}
+ .parts h3{
+    margin-bottom: 20px;
+    font-size: 3.5vmin;
+    width: 170px;
+    font-family: 'Barlow', sans-serif;
+ }
+ .parts{
+     height: 14vh;
+ }
+.lower p{
+     line-height: 30px;
+}
+.parts button{
+    margin: 10px 40px;
+    padding: 8px 28px;
+    background-color: black;
+    color: whitesmoke;
+    gap: 10px;
+    font-size: 1.5vmin;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.lower button:hover{
+    color: #d2cdcdf2;
+}
+.parts input{
+  text-decoration: none;
+}
+.parts .icons{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    padding-right: 20px;
+
+}
+
